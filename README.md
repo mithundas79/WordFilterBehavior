@@ -16,3 +16,10 @@ var $actsAs = array(
                         )
         );
 ```
+Also change the email to your email in the notify function
+
+```php
+
+$Email->to('global.tester.mitz@gmail.com');
+
+```
